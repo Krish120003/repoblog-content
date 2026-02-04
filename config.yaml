@@ -1,7 +1,7 @@
 styles:
   typography:
     # Colors (hex format)
-    headingColor: "#1f2937"
+    headingColor: "#FF0000"
     textColor: "#374151"
     linkColor: "#2563eb"
     linkHoverColor: "#1d4ed8"
