@@ -1,0 +1,229 @@
+---
+title: "Complete MDX Styling Showcase"
+description: "A comprehensive demonstration of all MDX styling features including headings, text formatting, lists, code blocks, links, and more"
+date: "2026-02-03"
+tags: ["tutorial", "repoblog", "markdown", "mdx", "testing"]
+---
+
+# Heading 1: The Largest Heading
+
+This is a comprehensive showcase of all MDX styling capabilities. This paragraph demonstrates normal text flow with proper line height and spacing. Let's explore all the different formatting options available.
+
+## Heading 2: Major Sections
+
+Heading 2 is perfect for major sections in your blog post. It's slightly smaller than H1 but still quite prominent.
+
+### Heading 3: Subsections
+
+Heading 3 works great for subsections within your major sections. Notice how the hierarchy becomes clearer as we go down.
+
+#### Heading 4: Minor Sections
+
+Heading 4 is useful for minor sections and detailed breakdowns.
+
+##### Heading 5: Small Headings
+
+Heading 5 is even smaller but still distinct from body text.
+
+###### Heading 6: The Smallest Heading
+
+Heading 6 is the smallest heading available, great for very minor subdivisions.
+
+---
+
+## Text Formatting
+
+You can use **bold text** to emphasize important points, or _italic text_ for subtle emphasis. You can even combine them with **_bold and italic_** text.
+
+You can also use `inline code` to reference code snippets, functions, or technical terms like `const variable = "value"`.
+
+> This is a blockquote. Use it for highlighting important information, quotes from other sources, or callout boxes. Blockquotes can span multiple lines and maintain proper formatting throughout.
+
+---
+
+## Lists
+
+### Unordered Lists
+
+Here's an unordered (bulleted) list:
+
+- First item in the list
+- Second item with more details
+  - Nested item under second
+  - Another nested item
+    - Even deeper nesting
+- Third item back at the top level
+- Fourth item with a longer description that wraps to multiple lines to demonstrate how list items handle longer content
+
+### Ordered Lists
+
+Here's an ordered (numbered) list:
+
+1. First step in the process
+2. Second step with important details
+   1. Substep under second step
+   2. Another substep
+      1. Deeply nested substep
+3. Third step back at the top level
+4. Fourth and final step
+
+### Mixed Lists
+
+You can even mix list types:
+
+1. Start with a numbered list
+   - Add a bulleted sub-item
+   - Another bulleted sub-item
+2. Continue with numbers
+   - More bullets underneath
+     1. And numbers within bullets
+
+---
+
+## Code Blocks
+
+### Inline Code
+
+Use `inline code` for short code snippets like `const x = 42` or `function getName()`.
+
+### Code Blocks
+
+Here's a JavaScript code block:
+
+```javascript
+function greet(name) {
+  return `Hello, ${name}!`;
+}
+
+const message = greet("World");
+console.log(message);
+```
+
+Here's a Python code block:
+
+```python
+def calculate_sum(numbers):
+    total = sum(numbers)
+    return total
+
+result = calculate_sum([1, 2, 3, 4, 5])
+print(f"The sum is: {result}")
+```
+
+Here's a plain text code block:
+
+```
+This is plain text without syntax highlighting.
+It's useful for command output or plain data.
+  Indentation is preserved.
+```
+
+---
+
+## Links
+
+You can create [inline links](https://example.com) to external resources or [relative links](/other-post) to other content.
+
+You can also use reference-style links: Check out [this resource][1] and [this other resource][2].
+
+[1]: https://example.com
+[2]: https://github.com
+
+---
+
+## Images
+
+Here's how you might include an image (note: image path should be valid):
+
+![Alt text for the image](https://via.placeholder.com/800x400)
+
+---
+
+## Tables
+
+| Column 1     | Column 2     | Column 3     |
+| ------------ | ------------ | ------------ |
+| Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
+| Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
+| Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 |
+
+You can also align columns:
+
+| Left Aligned | Center Aligned | Right Aligned |
+| :----------- | :------------: | ------------: |
+| Left         |     Center     |         Right |
+| Text         |      Text      |          Text |
+
+---
+
+## Horizontal Rules
+
+You can add horizontal rules (lines) to separate content sections, as shown throughout this document with `---`.
+
+---
+
+## Nested Content
+
+Here's a complex example with nested elements:
+
+1. **First major point** with _emphasis_
+
+   This is a paragraph under the first point with some explanatory text.
+
+   ```javascript
+   // Code example under first point
+   const example = "nested content";
+   ```
+
+   - Bulleted sub-point
+   - Another sub-point with `inline code`
+
+2. **Second major point**
+
+   > A blockquote under the second point
+   > with multiple lines
+
+   Another paragraph with a [link](https://example.com) and **bold text**.
+
+---
+
+## Special Characters
+
+You can use special characters and symbols:
+
+- En dash: –
+- Em dash: —
+- Ellipsis: …
+- Copyright: ©
+- Trademark: ™
+- Registered: ®
+- Arrows: → ← ↑ ↓
+- Math symbols: ± × ÷ ≈ ≠ ≤ ≥
+
+---
+
+## Long Paragraphs
+
+This is an example of a longer paragraph that demonstrates how text flows and wraps naturally. The line height and spacing are configured in the config.yaml file to ensure readability. Good typography makes content easier to read and understand, which is why proper spacing, font sizes, and line heights are so important in web design. This paragraph should wrap naturally and maintain comfortable reading flow.
+
+Multiple paragraphs are separated by blank lines, creating visual breathing room between different thoughts or sections. This makes the content less dense and more approachable for readers.
+
+---
+
+## Conclusion
+
+This MDX file demonstrates all the common styling features available:
+
+- ✅ Six levels of headings (H1-H6)
+- ✅ Text formatting (bold, italic, combined)
+- ✅ Inline code and code blocks with syntax highlighting
+- ✅ Ordered and unordered lists with nesting
+- ✅ Blockquotes
+- ✅ Links (inline and reference-style)
+- ✅ Images
+- ✅ Tables with alignment
+- ✅ Horizontal rules
+- ✅ Special characters
+- ✅ Complex nested content
+
+All styling is controlled through the `config.yaml` file, making it easy to customize the appearance of your blog posts!
