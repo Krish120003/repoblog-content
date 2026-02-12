@@ -142,9 +142,7 @@ In normal programming languages, we often have multiple data types to represent 
 
 For my parser, each number is represented as a `f64` (floating-point number). This is a simple way to represent numbers in Rust, but it does not support the full arbitrary precision that JSON allows. This is a limitation of my parser, but it's one that I'm willing to accept for now.
 
-<!-- json_number.png -->
 
-[![Number](/assets/json-parser-in-rust/json_number.png)](/assets/json-parser-in-rust/json_number.png)
 
 A number in JSON is made up of many parts: the integer, the fraction, and the exponent. The parser reads these parts and constructs a `f64` from them. There are also some edge cases to consider, like leading zeros, negative numbers, and so on.
 
